@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  padding: 0px;
+  font-family: Roboto;
+  line-height: 160%;
+  color: #555
+}
+h1 {
+  font-weight: normal;
+  font-size: 2em;
+  color: #147cb1
+}
+h2 {
+  font-weight: normal;
+  font-size: 1.8em;
+  color: #147cb1;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.header {
+  position: fixed;
+  height: 100px;
+  background: white;
+  width: 100%;
+  z-index: 20;
+  box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 14px;
+}
+.headerbox {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.padding {
+  height: 80px;
+}
+.logo {
+  float: left;
+  margin-left: 20px;
+  font-size: 0.9em;
+  line-height: 120%;
+  letter-spacing: 2px;
+}
+.top_nav_button {
+  float: right;
+}
+
+.top_nav_button:hover {
+  background: #bebebe;
+}
+
+.nav_button {
+  padding: 20px;
+  height: 50px;
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 10px;
+  border: 0px;
+  border-radius: 4px;
+  background: white;
+  color: #1b1464;
+}
+.special_button {
+  background: #1b1464;
+  color: #ccc;
+  box-shadow: -1px 6px 6px -3px rgba(0, 0, 0, 0.22);
+}
+.special_button:hover {
+  background: #147cb1;
+}
+.phonebox {
+  /*background-color: red;*/
+  float: right;
+  margin-top: 40px;
+}
+.phone-screen {
+  width: 288px;
+  height: 512px;
+  background: blue;
+  position: relative;
+  color: white;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.phonepic {
+  height: 700px;
+}
+.taft {
+  position: absolute;
+}
+.top-box {
+  background: #147bc1;
+  color: white;
+  min-height: 460px;
+}
+.top-box h1 {
+  color: white;
+  font-size: 1.8em
+}
+.top-blurb {
+  padding-top: 130px;
+  max-width: 510px;
+  float: left;
+}
+@media only screen and (max-width: 870px) {
+  .top-box {
+    min-height: 320px;
+  }
+  .top-blurb {
+    padding-top: 60px;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .top-box {
+    min-height: 340px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .top-box {
+    min-height: 390px;
+  }
+}
+.middle-blurb {
+  padding-top: 80px;
+  width: 74%
+}
+.middle-blurb h1 {
+  font-size: 1.8em;
+  margin-bottom: 40px;
+  line-height: 130%;
+  color: #147bc1;
+}
+
+.whitebox {}
+.greybox {
+  background: #f5f5f5;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 30px;
+}
+.blurb {
+  float: left;
+  max-width: 510px;
+  color: white;
+}
+
+.phonepic-small {
+  height: 627px;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .phonepic-small {
+    display: none
+  }
+
+}
+
+.footer {
+  width: 100%;
+  background: #147bc1;
+  height: 650px;
+  color: white;
+}
+#laptop {
+  width: 251px;
+  margin-bottom: 40px
+}
+.footbox {
+  padding-top: 80px;
+  text-align: center;
+}
+.footbox h1 {
+  color: white;
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  line-height: 150%;
+}
+.footbutt {
+  color: white;
+  border-radius: 4px;
+  background: #1b1464;
+  border: 0px;
+  padding: 15px;
+  font-size: 0.8em;
+  margin: 20px;
+}
+@media only screen and (max-width: 870px) {
+  .footbox {
+    text-align: left;
+    max-width: 1000px;
+  }
+  .footbutt {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .mobile-hide {
+    display: none
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .top_nav_button {
+    display: none;
+  }
+}
