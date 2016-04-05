@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Kei &middot; Nakagawa</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body>
+
+  <div>
+
+    <div class="header">
+
+      <div class="headerbox">
+
+        <div class="logo">
+            <p>i
+            <br>am
+            <br/>kei
+            <br/>nakagawa</p>
+        </div>
+
+        <button class="nav_button top_nav_button special_button">
+          RESUME
+        </button>
+        <button class="nav_button top_nav_button">
+          CONTACT
+        </button>
+        <button class="nav_button top_nav_button">
+          LONGFORM
+        </button>
+      </div>
+    </div>
+    <div class="padding">
+    </div>
+    <div class="top-box-skinny">
+      <div class="container">
+
+        <div class="top-blurb">
+          <h1>{{ page.title }}</h1>
+          <p>
+            {{ page.date | date_to_string }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="whitebox">
+    <div class="container">
+      <div class="middle-blurb">
+
+        {{ content }}
+
+      </div>
+      <div style="clear:both"></div>
+    </div>
+
+  </div>
+
+  <div class="whitebox">
+    <div class="container">
+      <div class="middle-blurb">
+
+        <h1>contact</h1>
+        <h3>email: kei_nakagawa &middot; brown &middot; edu</h3>
+
+      <div style="clear:both"></div>
+
+    </div>
+</div>
+  </div>
+
+</body>
+
+</html>
