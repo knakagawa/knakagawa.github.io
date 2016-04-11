@@ -1,4 +1,4 @@
-Data for knakagawa.github.io.
+Data for keiontheinter.net.
 
 Blog / pages generated with Jekyll and hosted on github.com, using jmcglone's guide here
 http://jmcglone.com/guides/github-pages/
