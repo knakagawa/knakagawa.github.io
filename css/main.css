@@ -73,12 +73,11 @@ h2 {
 .special_button:hover {
   background: #147cb1;
 }
-.phonebox {
+.picholder {
   /*background-color: red;*/
   float: right;
   margin-top: 60px;
-}
-.phone-screen {
+
   width: 290px;
   height: 340px;
   background: blue;
@@ -88,10 +87,7 @@ h2 {
   margin-right: 20px;
 }
 
-.phonepic {
-  height: 700px;
-}
-.taft {
+.headshot {
   position: absolute;
 }
 .top-box {
