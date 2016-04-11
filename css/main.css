@@ -76,11 +76,11 @@ h2 {
 .phonebox {
   /*background-color: red;*/
   float: right;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 .phone-screen {
-  width: 288px;
-  height: 512px;
+  width: 290px;
+  height: 340px;
   background: blue;
   position: relative;
   color: white;
