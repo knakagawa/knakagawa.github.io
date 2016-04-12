@@ -102,14 +102,14 @@ h2 {
 .top-box-skinny {
   background: #147bc1;
   color: white;
-  min-height: 200px;
+  min-height: 120px;
 }
 .top-box-skinny h1 {
   color: white;
   font-size: 1.8em
 }
 .top-blurb {
-  padding-top: 130px;
+  padding-top: 60px;
   max-width: 510px;
   float: left;
 }
