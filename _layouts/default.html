@@ -21,11 +21,15 @@
       <div class="container">
 
         <div class="top-blurb">
-          <h1>{{ page.title }}</h1>
+          <div class="post-title">
+            <h1>{{ page.title }}</h1>
+          </div>
           {% if page.date %}
-            <p>
-              {{ page.date | date_to_string }}
-            </p>
+            <div class="post-date">
+              <p>
+                {{ page.date | date_to_string }}
+              </p>
+            </div>
           {% endif %}
         </div>
       </div>
