@@ -1,4 +1,0 @@
-name: Longform
-permalink: /blog/:year/:month/:day/:title
-gems:
-  - jekyll-sitemap
